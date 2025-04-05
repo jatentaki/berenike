@@ -1,0 +1,29 @@
+[project]
+name = "berenike"
+version = "0.0.0"
+description = "Package for tumuli detection from satellite imagery in the Berenike area of Egypt."
+authors = [
+    { name = "Michal Tyszkiewicz", email = "michal.tyszkiewicz@gmail.com" }
+]
+requires-python = "==3.11.*"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "lightning",
+    "segmentation_models_pytorch",
+    "matplotlib",
+    "scikit-image",
+    "tensorboard",
+    "rasterio",
+    "scikit-learn",
+    "geopandas",
+    "ipykernel",
+    "ipywidgets",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"

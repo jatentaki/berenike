@@ -25,7 +25,7 @@ uv pip install .
 ```
 
 ## Getting the data
-Download the data from this google drive link and put it in this repository as `./data/...`.
+Download the data from [this google drive link](https://drive.google.com/drive/folders/1luyfJm7-_6esYJlUozbVVCgfeo8-LBDZ?usp=sharing) and put it in this repository as `./data/...`.
 The contents are as follows:
 ```
 data/
